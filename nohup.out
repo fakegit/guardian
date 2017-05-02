@@ -1,0 +1,16 @@
+[CRUISE] change wallpaper cruise start...
+[CRUISE] download wallpaper cruise start...
+Exception ignored in: <module 'threading' from '/usr/lib/python3.5/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 1288, in _shutdown
+    t.join()
+  File "/usr/lib/python3.5/threading.py", line 1054, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.5/threading.py", line 1070, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_0.jpeg
+[CRUISER] start download time:  2017-05-02 12:20:00
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_10.jpeg
+[CRUISE] change wallpaper cruise start...
+[CRUISE] download wallpaper cruise start...
