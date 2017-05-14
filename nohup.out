@@ -75,3 +75,102 @@ I am alive.
 I am alive.
 [CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_8.jpeg
 [CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_7.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_5.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_0.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_7.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_8.jpeg
+I am alive.
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_9.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_0.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_11.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_0.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_1.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_8.jpeg
+I am alive.
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_0.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_6.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_10.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_10.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_2.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_10.jpeg
+I am alive.
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_6.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_3.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_4.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_16_1.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_0.jpeg
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_7.jpeg
+I am alive.
+[CRUISE] change wallpaper, command:  gsettings set org.gnome.desktop.background picture-uri file:///home/jintian/Pictures/guardian/wallpapers/2017_04_13_3.jpeg
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+no images to set
+I am alive.
+no images to set
+no images to set
+no images to set
+no images to set
+Traceback (most recent call last):
+  File "main.py", line 42, in <module>
+    main_loop()
+  File "main.py", line 37, in main_loop
+    time.sleep(120)
+KeyboardInterrupt

@@ -25,6 +25,7 @@ import os
 import time
 from clint.textui import progress
 from threading import Thread
+from random import sample
 
 
 class WallpaperScraper(object):
@@ -49,11 +50,14 @@ class WallpaperScraper(object):
 
     @staticmethod
     def save_image_from_url(url):
+        print('current url: ', url)
         try:
             save_path = WALLPAPERS_DIR
             if not os.path.exists(save_path):
                 os.makedirs(save_path)
-            file_name = datetime.now().strftime('%Y_%m_%d_%H_%M_%S') + '.jpeg'
+            file_name = ''.join(sample('AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789', 16))
+            file_name = str(datetime.now().strftime('%Y_%m_%d_') + file_name + '.jpg')
+            print(file_name)
             save_file = os.path.join(save_path, file_name)
             start = time.time()
             response = requests.get(url, stream=True)
@@ -63,13 +67,12 @@ class WallpaperScraper(object):
                 for chunk in progress.bar(response.iter_content(chunk_size=1024),
                                           expected_size=(total_length / 1024) + 1):
                     end = time.time()
-                    print(end-start)
                     if end - start > 500:
                         raise TimeoutError
                     if chunk:
                         f.write(chunk)
                         f.flush()
-                    print('1 image finished. time cost {} seconds'.format(round(end - start, 4)))
+            print('downloaded {}. time cost {} seconds'.format(file_name, round(end - start, 4)))
             pass
         except requests.Timeout or requests.ConnectTimeout:
             pass

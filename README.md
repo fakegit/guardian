@@ -13,6 +13,16 @@ Guardian using multiprocess to manage all the events, for now, he can do those t
 ![Picture](http://opbocoyb4.bkt.clouddn.com/VbLMFeNgPU0mWZi5.png)
 ![Picture](http://opbocoyb4.bkt.clouddn.com/lYZyWx7nS4hGmPOq.png)
 
+# Usage
+
+For using guardian is very simple, we can using supervisor or setsid to ensure it run automatically.
+I prefer using setsid, add this into `~/.bashrc`:
+
+```
+alias guardian='setsid python3 /media/work/CodeSpace/PythonProjects/guardian/main.py'
+```
+the path is main.py path, using this, you can call it anytime in terminal guardian, and it will still keep runing even you close your terminal!!
+
 # Future Work
 Guardian is just a start, I will add more events into guardian and make it more modulable. 
 Later on, guardian maybe intergrate with **Jarvis**, which is my personal artifical intellegent assistant.

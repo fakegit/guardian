@@ -16,18 +16,19 @@ from cruiser.change_wallpaper_cruiser import ChangeWallPaperCruiser
 from cruiser.download_wallpapers_cruiser import DownloadWallPaperCruiser
 from threading import Thread
 import time
+from scrapers.wallpaper_scraper import WallpaperScraper
 
 
 def start_cruisers_threads():
     change_wallpaper_cruiser = ChangeWallPaperCruiser()
     change_wallpaper_thread = Thread(name='change_wallpaper', target=change_wallpaper_cruiser.cruise_change_wallpaper)
-    change_wallpaper_thread.setDaemon(True)
+    # change_wallpaper_thread.setDaemon(True)
     change_wallpaper_thread.start()
 
     download_wallpaper_cruiser = DownloadWallPaperCruiser()
     download_wallpaper_thread = Thread(name='download_wallpaper',
                                        target=download_wallpaper_cruiser.cruise_download_wallpaper)
-    download_wallpaper_thread.setDaemon(True)
+    # download_wallpaper_thread.setDaemon(True)
     download_wallpaper_thread.start()
 
 
@@ -38,5 +39,10 @@ def main_loop():
         print('I am alive.')
 
 
+def scrap_wallpapers():
+    scraper = WallpaperScraper()
+    scraper.scrap()
+
 if __name__ == '__main__':
+    # scrap_wallpapers()
     main_loop()
